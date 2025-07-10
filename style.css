@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1140px;
+  height: 151px;
+  margin: auto;
+}
+
+/* nav style */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #4e47ff;
+  max-width: 1140px;
+  height: 151px;
+}
+
+nav button {
+  height: 48px;
+  width: 132px;
+  background-color: #4e47ff;
+  color: #ffffff;
+  border-radius: 10px;
+}
+nav h1 {
+  width: 99px;
+  height: 51px;
+  font-weight: bolder;
+  font-size: 40px;
+}
