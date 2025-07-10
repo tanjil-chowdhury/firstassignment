@@ -5,7 +5,7 @@
 
 body {
   max-width: 1140px;
-  height: 151px;
+  /* height: 151px; */
   margin: auto;
 }
 /* upper part style */
@@ -122,4 +122,90 @@ nav h1 {
   height: 328px;
   border-radius: 30px;
   margin-top: 50px;
+}
+
+/* Productive Users Section style */
+
+.Productive-Users {
+  background-color: rgba(78, 71, 255, 0.1);
+  width: 1140px;
+  height: 306px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 110px; */
+  margin: 0 auto;
+}
+
+.productive-items p {
+  text-align: center;
+  width: 856px;
+  height: 45px;
+  font-size: 38px;
+  font-weight: bold;
+  color: black;
+  opacity: 1;
+  padding: 0 50px;
+}
+
+.box {
+  width: 856px;
+  height: 121px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.productive-big1 {
+  width: 180px;
+  height: 121px;
+}
+
+.productive-big1 h1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4e47ff;
+}
+
+.productive-big1 h6 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #000000;
+  opacity: 50%;
+}
+
+.productive-big2 h1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4e47ff;
+}
+
+.productive-big2 h6 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #000000;
+  opacity: 50%;
+}
+
+.productive-big3 h1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4e47ff;
+}
+
+.productive-big3 h6 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #000000;
+  opacity: 50%;
+}
+
+.productive-big3 h6 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #000000;
+  opacity: 50%;
 }
