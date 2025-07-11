@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+   
 }
 
 body {
@@ -131,13 +132,14 @@ nav h1 {
   background-color: rgba(78, 71, 255, 0.1);
   width: 1140px;
   height: 306px;
-  padding: 50px;
+  padding: 0 140px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   /* margin-left: 110px; */
   margin: 0 auto;
+
 }
 
 .productive-items p {
@@ -216,7 +218,7 @@ nav h1 {
 .user-feedback {
   max-width: 1140px;
   /* margin: 30px auto; */
-  padding: 20px;
+  padding: 0 140px;
   display: flex;
   gap: 20px;
 }
@@ -227,8 +229,9 @@ nav h1 {
   font-size: 42px;
   font-weight: bold;
   color: #252432;
-  padding: 50px;
+ padding: 0 140px;
   text-align: center;
+  margin-top: 50px;
 }
 
 .child-div {
@@ -298,7 +301,8 @@ nav h1 {
   
   align-items: center;
     margin: 0 auto;
-     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08); 
+     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+  padding: 0 140px; 
 }
 
 .touch-text p {
@@ -364,6 +368,7 @@ footer {
             padding: 20px; /* Add some padding for overall spacing */
             box-sizing: border-box;
             text-align: center;
+           
 }
 
 .footer-container {
@@ -373,7 +378,10 @@ footer {
   padding: 20px;
   width: 531px;
   height: 221px;
-  margin: auto;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 /* .footer-container h1 {
