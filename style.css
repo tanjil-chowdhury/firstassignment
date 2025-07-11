@@ -17,7 +17,7 @@ body {
 /* upper part style */
 
 header {
-  background-image: url(/Assets/Hero-bg.png);
+  background-image: url(./Assets/Hero-bg.png);
   height: 698px;
   width: 1440px;
 }
