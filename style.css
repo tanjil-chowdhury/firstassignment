@@ -353,3 +353,76 @@ button[type="submit"] {
     margin-top: 0px;
     padding: 20px;
 }
+
+
+/* footer section style */
+footer {
+  width: 1440px;
+  height: 428px;
+  background-color: #FFFFFF;
+   margin: 0;
+            padding: 20px; /* Add some padding for overall spacing */
+            box-sizing: border-box;
+            text-align: center;
+}
+
+.footer-container {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  padding: 20px;
+  width: 531px;
+  height: 221px;
+  margin: auto;
+}
+
+/* .footer-container h1 {
+  
+  font-weight: bolder;
+  font-size: 40px;
+  color: #4E47FF;
+} */
+
+.logo {
+  font-weight: bold;
+  font-size: 50px;
+  color: #4E47FF;
+   letter-spacing: 2px; 
+
+  padding: 20px ;
+}
+
+.description-text {
+            font-size: 20px; 
+            color: #555555; 
+            line-height: 1.6; 
+            margin-bottom: 50px;
+            max-width: 600px; 
+            margin-left: auto; 
+            margin-right: auto;
+             font-size: 1rem; 
+            margin-bottom: 40px;
+        }
+
+                .footer-menu {
+            
+            padding: 0; 
+            margin: 0; 
+            display: flex; 
+            justify-content: center; 
+            gap: 30px; 
+            flex-wrap: wrap; 
+            list-style: none;
+              }
+
+        .footer-menu li a {
+            text-decoration: none; 
+            color: #666666; 
+            font-size: 1.05rem;
+            font-weight: 600; 
+            padding: 8px 15px;
+            border-radius: 8px;
+        
+            
+            
+        }
