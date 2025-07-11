@@ -7,6 +7,7 @@ body {
   max-width: 1140px;
   /* height: 151px; */
   margin: auto;
+  background-color: #f5f7fb;
 }
 /* upper part style */
 
@@ -287,7 +288,7 @@ nav h1 {
 /* get in touch style */
 
 .get-in-touch {
-  width: 1140px;
+ width: 1140px;
   height: 632px;
   background-color: #D6DDED;
   
@@ -297,10 +298,11 @@ nav h1 {
   
   align-items: center;
     margin: 0 auto;
+     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08); 
 }
 
 .touch-text p {
-    width: 528px;
+    width: 494px;
     height: 232px;
     font-size: 97px;
     font-weight: bold;
@@ -309,14 +311,14 @@ nav h1 {
 }
 
 .touch-form {
-    width: 497px;
+    width: 494px;
     height: 490px;
     display: flex;
     flex-direction: column;
     
 }
  input[type="text"] {
-     width: 494px;
+     width: 450px;
     height: 70px; */
     background-color: #FFFFFF;
     border-radius: 5px;
@@ -326,7 +328,7 @@ nav h1 {
     padding: 5px;
 }
 textarea {
-    width: 496px;
+    width: 450px;
     height: 167px;
     background-color: #FFFFFF;
     border-radius: 3px;
@@ -339,8 +341,8 @@ textarea {
 }
 
 button[type="submit"] {
-    width: 494px;
-    height: 62px;
+    width: 460px;
+    height: 70px;
     background-color: #4E47FF;
     border-radius: 10px;
     color: #FFFFFF;
@@ -349,5 +351,5 @@ button[type="submit"] {
     border: none;
     cursor: pointer;
     margin-top: 0px;
-    padding: 10;
+    padding: 20px;
 }
