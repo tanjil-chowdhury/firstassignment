@@ -4,6 +4,10 @@
    
 }
 
+.button-style:hover {
+  background-color: #04AA6D1000;
+  color: white;
+}
 body {
   max-width: 1140px;
   /* height: 151px; */
